@@ -2,7 +2,6 @@ import Link from 'next/link';
 import './globals.css';
 import { Inter } from 'next/font/google';
 
-
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -51,7 +50,7 @@ export default function RootLayout({
             </Link>
           </div>
         </nav>
-        <main className="container h-screen w-screen mx-auto flex items-center justify-center ">
+        <main className='container h-screen w-screen mx-auto flex items-center justify-center '>
           {children}
         </main>
         <footer className='flex items-center justify-center flex-wrap bg-sky-700 p-6'>
